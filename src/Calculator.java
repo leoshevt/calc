@@ -10,7 +10,7 @@ public class Calculator
         int a = sc.nextInt();
         int b = sc.nextInt();
         char c = sc.next().charAt(0);
-        if(c=='*'){System.out.println(a*c);}
+        if(c=='*'){System.out.println(a*b);}
         else if(c=='/'||c==':'){System.out.println(a/b);}
         else if(c=='+'){System.out.println(a+b);}
         else if(c=='-'){System.out.println(a-b);}
